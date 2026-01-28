@@ -1,9 +1,6 @@
 export default function About() {
     const tools = [
         { name: 'vscode', icon: './assets/vscode.png', },
-        { name: 'firebase', icon: './assets/firebase.png', },
-        { name: 'mongodb', icon: './assets/mongodb.png', },
-        { name: 'figma', icon: './assets/figma.png', },
         { name: 'git', icon: './assets/git.png', },
     ];
 
@@ -42,7 +39,7 @@ export default function About() {
                     </div>
                 </div>
                 <div className="flex-1">
-                    <p className="mb-10 max-w-2xl font-Ovo">I am an experienced Frontend Developer with over a decade of professional expertise in the field. Throughout my career, I have had the privilege of collaborating with prestigious organizations, contributing to their success and growth.</p>
+                    <p className="mb-10 max-w-2xl font-Ovo">I am a Data Analyst with over a decade of professional expertise in the field. Throughout my career, I have had the privilege of collaborating with prestigious organizations, contributing to their success and growth.</p>
 
                     <ul className="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl">
                         {data.map((data) => (

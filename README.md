@@ -3,8 +3,7 @@
 
  - [Demo](https://themewagon.github.io/eliana-react/)
 
-#### Download
- - [Download from ThemeWagon](https://themewagon.com/themes/eliana-react/)
+
 
 ## Getting Started
 
