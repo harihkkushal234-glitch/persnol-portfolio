@@ -13,14 +13,14 @@ export default function Services() {
             link: '#',
         },
         {
-            name: 'Predictive Modeling',
-            icon: './assets/ui-icon.png',
-            description: 'Forecasting trends with smart analystics...',
+            name: 'Data Visualisation',
+            icon: './assets/dv.png',
+            description: 'Storytelling through charts and graphs...',
             link: '#',
         },
         {
             name: 'Reporting',
-            icon: './assets/graphics-icon.png',
+            icon: './assets/reporting.png',
             description: 'Automated, accurate, and easy to read reports...',
             link: '#',
         }
