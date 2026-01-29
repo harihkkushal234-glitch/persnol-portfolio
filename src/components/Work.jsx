@@ -1,35 +1,22 @@
 export default function Work() {
     const work = [
         {
-            name: 'Frontend project',
-            icon: './assets/work-1.png',
-            description: 'Web Design',
+            name: 'IBM',
+            icon: './assets/IBM.png',
+            description: 'Data Analytics Using Python',
             link: '',
         },
         {
-            name: 'Geo based app',
-            icon: './assets/work-2.png',
-            description: 'mobile app',
+            name: 'Deloite',
+            icon: './assets/deloite.png',
+            description: 'Completion of forensic technology',
             link: '',
         },
-        {
-            name: 'Photography site',
-            icon: './assets/work-3.png',
-            description: 'Web Design',
-            link: '',
-        },
-        {
-            name: 'UI/UX designing',
-            icon: './assets/work-4.png',
-            description: 'UI/UX Design',
-            link: '',
-        }
     ];
     return (
         <div id="work" className="w-full px-[12%] py-10 scroll-mt-20">
-            <h4 className="text-center mb-2 text-lg font-Ovo">My portfolio</h4>
-            <h2 className="text-center text-5xl font-Ovo">My latest work</h2>
-            <p className="text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo">Welcome to my web development portfolio! Explore a collection of projects showcasing my expertise in front-end development.</p>
+            <h2 className="text-center text-5xl font-Ovo">My Certifications</h2>
+            <p className="text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo">Here are the certifications i've earned to strengthen my skills in data analytics and visualization, showcasing my expertise in Python, SQL, Power BI, and modern data practices.</p>
 
             <div className="grid grid-cols-auto my-10 gap-5 dark:text-black">
                 {work.map((work) => (
