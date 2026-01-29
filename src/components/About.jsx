@@ -4,6 +4,7 @@ export default function About() {
         { name: 'git', icon: './assets/git.png', },
         { name: 'Power BI', icon: './assets/power.png', },
         { name: 'Tableau', icon: './assets/tableau.png', },
+        { name: 'SQL Server', icon: './assets/sql.png', },
     ];
 
     const data = [
