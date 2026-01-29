@@ -2,6 +2,7 @@ export default function About() {
     const tools = [
         { name: 'vscode', icon: './assets/vscode.png', },
         { name: 'git', icon: './assets/git.png', },
+        { name: 'power BI', icon: './assets/power.png', },
     ];
 
     const data = [
