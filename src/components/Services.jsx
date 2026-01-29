@@ -2,13 +2,13 @@ export default function Services() {
     const services = [
         {
             name: 'Data Analysis',
-            icon: './assets/web-icon.png',
+            icon: './assets/da.png',
             description: 'Turning raw data into clear insights...',
             link: '#',
         },
         {
             name: 'Dashboard Design',
-            icon: './assets/mobile-icon.png',
+            icon: './assets/dash.png',
             description: 'Interactive visuals that drive decisions...',
             link: '#',
         },
