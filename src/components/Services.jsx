@@ -1,35 +1,35 @@
 export default function Services() {
     const services = [
         {
-            name: 'Web design',
+            name: 'Data Analysis',
             icon: './assets/web-icon.png',
-            description: 'Web development is the process of building, programming...',
+            description: 'Turning raw data into clear insights...',
             link: '#',
         },
         {
-            name: 'Mobile app',
+            name: 'Dashboard Design',
             icon: './assets/mobile-icon.png',
-            description: 'Web development is the process of building, programming...',
+            description: 'Interactive visuals that drive decisions...',
             link: '#',
         },
         {
-            name: 'UI/ UX design',
+            name: 'Predictive Modeling',
             icon: './assets/ui-icon.png',
-            description: 'Web development is the process of building, programming...',
+            description: 'Forecasting trends with smart analystics...',
             link: '#',
         },
         {
-            name: 'Graphics design',
+            name: 'Reporting',
             icon: './assets/graphics-icon.png',
-            description: 'Web development is the process of building, programming...',
+            description: 'Automated, accurate, and easy to read reports...',
             link: '#',
         }
     ];
     return (
         <div id="services" className="w-full px-[12%] py-10 scroll-mt-20">
             <h4 className="text-center mb-2 text-lg font-Ovo">What i offer</h4>
-            <h2 className="text-center text-5xl font-Ovo">My services</h2>
-            <p className="text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo">I am a Data Analyst from Karnataka,</p>
+            <h2 className="text-center text-5xl font-Ovo">Turning data into decisions</h2>
+            <p className="text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo">I help business uncover insights, trends, and opportunities through clean, actionable analytics</p>
 
             <div className="grid grid-cols-auto gap-6 my-10">
                 {services.map((service) => (
