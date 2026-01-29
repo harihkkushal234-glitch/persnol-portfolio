@@ -20,12 +20,6 @@ export default function About() {
             icon2: './assets/edu-icon-dark.png',
             description: 'B.Com',
         },
-        {
-            name: 'Projects',
-            icon1: './assets/project-icon.png',
-            icon2: './assets/project-icon-dark.png',
-            description: 'Built more than 5 projects',
-        },
     ];
     return (
         <div id="about" className="w-full px-[12%] py-10 scroll-mt-20">
