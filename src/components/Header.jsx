@@ -6,8 +6,8 @@ export default function Header() {
                 Hi! I&apos;m Kushal HK
                 <img src="./assets/hand-icon.png" alt="" className="w-6 mb-1" />
             </h3>
-            <h1 className="text-3xl sm:text-6xl lg:text-[66px] font-Ovo">Data Analyst based in India.</h1>
-            <p className="max-w-2xl mx-auto font-Ovo">I am a Data Analyst from Karnataka,</p>
+            <h1 className="text-3xl sm:text-6xl lg:text-[66px] font-Ovo">Data Analyst based in Karnataka India.</h1>
+            <p className="max-w-2xl mx-auto font-Ovo">I Turn Raw Data Into Meaningful Insights</p>
 
             <div className="flex flex-col sm:flex-row items-center gap-4 mt-4">
                 <a href="#contact"
